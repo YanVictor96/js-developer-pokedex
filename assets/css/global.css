@@ -1,17 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #acc4f3;
 }
 
+h1{
+    font-family: 'Pokemon Solid', sans-serif;
+   text-align: center;
+   color: rgb(247, 243, 7);
+
+}
 .content {
     width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+   height: 100vh;
+   padding: 1rem;
+   background-color: #fd0000a1;
+
 }
 
 @media screen and (min-width: 992px) {
